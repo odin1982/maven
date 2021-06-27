@@ -63,11 +63,11 @@ While each lifecycle has a number of phases, let us look at the important phases
 
 ## SCHEMA
 
-´´
+´´´
 <project    xmlns="http://maven.apache.org/POM/4.0.0"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-´´
+´´´
 ## VERSION SCHEMA
 
 <modelVersion>4.0.0</modelVersion>
