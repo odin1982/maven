@@ -63,14 +63,16 @@ While each lifecycle has a number of phases, let us look at the important phases
 
 ## SCHEMA
 
-´´´
+```
 <project    xmlns="http://maven.apache.org/POM/4.0.0"
             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-´´´
+```
 ## VERSION SCHEMA
 
+```
 <modelVersion>4.0.0</modelVersion>
+```
 
 ## GROUPID
 
@@ -78,44 +80,59 @@ The groupId element is a unique identifier of the organization to which the proj
 For our sample project, it is org.packt.cookbook. It is a good practice to follow the reverse
 domain name notation to specify this:
 
+```
 <groupId>...</groupId>
+```
 
 ## ARTIFACT ID
 The artifactId element is the name of the project
 
+```
 <artifactId>...</artifactId>
+```
 
 ## VERSION
 The version element is the specific instance of the project, corresponding to the source
 code at a particular instance of time.
 
+```
 <version>...</version>
+```
 
 ## PACKAGING
 
 The packaging element indicates the artifact type of the project. This is typically a jar, war, zip, or in some cases, a pom:
 
+```
 <packaging>...</packaging>
+```
 
 ## DEPENDECNIES
 The dependencies element section of the pom file defines all the dependent projects of this project. This would typically be third-party libraries required to build, test, and run the project:
 
+```
 <dependencies>...</dependencies>
+```
 
 ## PARENT
 The parent section is used to indicate a relationship, specifically a parent-child relationship. If the project is part of a multi-module project or inherits project information from another project, then the details are specified in this section:
 
+```
 <parent>...</parent>
-
+```
 
 ## PROPERTIES
 Maven properties are placeholders. Their values are accessible anywhere in the pom file by using ${key}, where key is the property name:
 
+```
 <properties>...</properties>
+```
 
 ## MODULES
 A project with modules is known as a multi-module or aggregator project. Modules are projects that this pom file lists and are executed as a group:
 
+```
 <modules>...</modules>
+```
 
 # UNDERSTANDING MAVEN SETTINGS
