@@ -42,3 +42,5 @@ name.
 3. Delete the repository subfolder and run the mvn package command again.
 You will now notice that the repository folder is not created in the .m2 folder.
 Instead, it is created in C:\software\maven
+
+# MAVEN LIFECYCLE
