@@ -135,4 +135,11 @@ A project with modules is known as a multi-module or aggregator project. Modules
 <modules>...</modules>
 ```
 
-# UNDERSTANDING MAVEN SETTINGS
+## COMMAND LINE OPTION IN MAVEN
+$ mvn -h            --> Options that Maven supports
+
+-e -errors          --> When there is an error, this flag display the  details of errors
+-q -quiet           --> Only errors are displayed
+-v -version         --> Only show if Maven is installed and Maven version
+-o -offline         --> Maven doesn't not attempt to download any dependency or plugin from the internet
+-X -debug           --> Maven prints a lot of verbose output
