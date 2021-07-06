@@ -157,3 +157,12 @@ $ mvn -h            --> Options that Maven supports
     <dependencyManagement>...</dependencyManagement>
     <distributionManagement>...</distributionManagement>
 </profile>
+
+## Activating/deactivating a Maven profile
+    <activeByDefault>false</activeByDefault>
+
+## command to check if the profile is active
+    $ mvn help:active-profiles
+
+## Invoke a profile coomand line
+    $ mvn –P dev package
