@@ -143,3 +143,17 @@ $ mvn -h            --> Options that Maven supports
 -v -version         --> Only show if Maven is installed and Maven version
 -o -offline         --> Maven doesn't not attempt to download any dependency or plugin from the internet
 -X -debug           --> Maven prints a lot of verbose output
+
+## PROFILE ELEMENTS
+<profile>
+    <id>test</id>
+    <activation>...</activation>
+    <build>...</build>
+    <modules>...</modules>
+    <repositories>...</repositories>
+    <pluginRepositories>...</pluginRepositories>
+    <dependencies>...</dependencies>
+    <reporting>...</reporting>
+    <dependencyManagement>...</dependencyManagement>
+    <distributionManagement>...</distributionManagement>
+</profile>
