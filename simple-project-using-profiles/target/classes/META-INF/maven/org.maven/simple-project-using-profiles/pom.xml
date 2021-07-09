@@ -12,6 +12,31 @@
 		<junit.version>3.8.1</junit.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<build>
+		<plugins>
+			<!-- if you dont want to delete working directory -->
+<!-- 			<plugin> -->
+<!-- 				<artifactId>maven-clean-plugin</artifactId> -->
+<!-- 				<version>2.6</version> -->
+<!-- 				<configuration> -->
+<!-- 					<skip>true</skip> -->
+<!-- 				</configuration> -->
+<!-- 			</plugin> -->
+			<!--  deleting specific folders -->
+			<plugin>
+				<artifactId>maven-clean-plugin</artifactId>
+				<version>2.6</version>
+				<configuration>
+					<filesets>
+						<fileset>
+							<directory>${basedir}/report</directory>
+						</fileset>
+					</filesets>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	
 	<profiles>
 		<profile>
 			<id>dev</id>

@@ -166,3 +166,8 @@ $ mvn -h            --> Options that Maven supports
 
 ## Invoke a profile coomand line
     $ mvn –P dev package
+
+## Skipping the compilation of test sources
+    $ mvn –Dmaven.test.skip=true package
+
+## AVANCE:DEPENDENCY MANAGMENT
