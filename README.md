@@ -175,3 +175,6 @@ $ mvn -h            --> Options that Maven supports
 
 ## Revisar una forma mas detallada de la lista de dependencias de tu proyecto
     $ mvn dependency:tree
+
+## Avance
+    Getting into dependency and avoiding dependency hell
