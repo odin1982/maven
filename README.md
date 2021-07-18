@@ -170,4 +170,8 @@ $ mvn -h            --> Options that Maven supports
 ## Skipping the compilation of test sources
     $ mvn –Dmaven.test.skip=true package
 
-## AVANCE:DEPENDENCY MANAGMENT
+## Revisar la lista de las dependencia de tu proyecto
+    $ mvn dependency:list
+
+## Revisar una forma mas detallada de la lista de dependencias de tu proyecto
+    $ mvn dependency:tree
